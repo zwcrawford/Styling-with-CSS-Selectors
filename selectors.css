@@ -1,0 +1,30 @@
+body > header {
+    border: 1px solid goldenrod;   
+}
+header > nav > ul > li {
+    display: inline;
+}
+a {
+    color: blue;
+}
+li .disabled {
+    color: purple;
+}
+li:last-child {
+    color: purple;
+}
+li > span.disabled {
+    color: grey;
+}
+.active {
+    color: #c2a90f;
+}
+.grandparent > div:nth-of-type(2) > div:first-of-type{
+	color: red;
+}
+.grandparent > div:nth-of-type(2) > div:nth-of-type(2) {
+	color: blue;
+}
+.grandparent > div:nth-of-type(2) > h4:first-of-type {
+	background-color: red;
+}
