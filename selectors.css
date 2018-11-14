@@ -19,12 +19,28 @@ li > span.disabled {
 .active {
     color: #c2a90f;
 }
-.grandparent > div:nth-of-type(2) > div:first-of-type{
+.parent > div:first-of-type > div:first-of-type {
 	color: red;
 }
-.grandparent > div:nth-of-type(2) > div:nth-of-type(2) {
+.parent > div:first-of-type > div:nth-of-type(2) {
 	color: blue;
 }
-.grandparent > div:nth-of-type(2) > h4:first-of-type {
+.parent > div:first-of-type > h4:first-of-type {
 	background-color: red;
+}
+.parent > div:first-of-type > h4:nth-of-type(2) {
+    background-color: blue;
+    color: grey;
+}
+.grandparent > h4:last-of-type {
+    border: 1px solid red;
+    border-radius: 5px;
+} 
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+input[type="text"],
+input[type="tel"] {
+    height: 25px;
 }
